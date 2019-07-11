@@ -1,0 +1,15 @@
+---
+branch: master
+repositoryUrl: git@gitlab.acmecryptocorp.io:andrew.yaushev/eslint-config.git
+tagFormat: v${version}
+plugins:
+  - '@semantic-release/commit-analyzer'
+  - '@semantic-release/release-notes-generator'
+  - '@semantic-release/changelog'
+  - '@semantic-release/npm'
+  - '@semantic-release/git'
+  -
+    - '@semantic-release/gitlab'
+    - gitlabUrl: https://gitlab.acmecryptocorp.io
+dryRun: false
+ci: false

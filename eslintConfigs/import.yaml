@@ -1,0 +1,26 @@
+---
+plugins:
+  - import
+
+rules:
+  import/order:
+    - error
+    - groups:
+        - builtin
+        - - external
+          - internal
+        - parent
+        - - index
+          - sibling
+      newlines-between: always
+  import/newline-after-import:
+    - error
+    - count: 2
+  import/group-exports: error
+
+overrides:
+  - files:
+      - '*.types.js'
+      - '*.flow.js'
+    rules:
+      import/group-exports: off

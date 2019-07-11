@@ -1,0 +1,210 @@
+plugins:
+  - '@acme/eslint-plugin'
+  - eslint-comments
+  - filenames
+  - flowtype
+  - import
+  - no-loops
+  - optimize-regex
+  - promise
+  - sort-class-members
+  - unicorn
+rules:
+  '@acme/require-variable-type': error
+  '@acme/require-exact-object-type': error
+  '@acme/type-export-filename': error
+  prefer-destructuring: 'off'
+  implicit-arrow-linebreak: 'off'
+  lines-between-class-members:
+    - error
+    - always
+    - exceptAfterSingleLine: true
+  max-len:
+    - error
+    - code: 160
+      tabWidth: 2
+      comments: 100
+      ignoreComments: true
+      ignoreTrailingComments: true
+      ignoreUrls: true
+      ignoreStrings: true
+      ignoreTemplateLiterals: true
+      ignoreRegExpLiterals: true
+  arrow-parens: 'off'
+  eslint-comments/disable-enable-pair:
+    - error
+    - allowWholeFile: true
+  eslint-comments/no-aggregating-enable: error
+  eslint-comments/no-duplicate-disable: error
+  eslint-comments/no-unlimited-disable: error
+  eslint-comments/no-unused-disable: error
+  eslint-comments/no-unused-enable: error
+  eslint-comments/no-restricted-disable: 'off'
+  eslint-comments/no-use: 'off'
+  filenames/match-regex:
+    - error
+    - '^([A-Z]?[a-z]+(\d*\.)?)+$'
+    - true
+  filenames/match-exported: error
+  filenames/no-index: 'off'
+  flowtype/array-style-complex-type:
+    - error
+    - verbose
+  flowtype/array-style-simple-type:
+    - error
+    - verbose
+  flowtype/boolean-style:
+    - error
+    - boolean
+  flowtype/define-flow-type: error
+  flowtype/delimiter-dangle:
+    - error
+    - always-multiline
+  flowtype/generic-spacing: 'off'
+  flowtype/newline-after-flow-annotation:
+    - error
+    - always
+  flowtype/no-dupe-keys: error
+  flowtype/no-existential-type: warn
+  flowtype/no-flow-fix-me-comments:
+    - warn
+    - \s+\w+
+  flowtype/no-mutable-array: warn
+  flowtype/no-primitive-constructor-types: error
+  flowtype/no-types-missing-file-annotation: error
+  no-unused-expressions: 'off'
+  flowtype/no-unused-expressions: error
+  flowtype/no-weak-types: warn
+  flowtype/object-type-delimiter:
+    - error
+    - comma
+  flowtype/require-compound-type-alias: 'off'
+  flowtype/require-exact-type: 'off'
+  flowtype/require-parameter-type:
+    - error
+  flowtype/require-return-type:
+    - error
+    - always
+  flowtype/require-types-at-top: 'off'
+  flowtype/require-valid-file-annotation:
+    - error
+    - never
+    - annotationStyle: line
+  flowtype/require-variable-type: 'off'
+  flowtype/semi:
+    - error
+    - always
+  flowtype/sort-keys: 'off'
+  flowtype/space-after-type-colon:
+    - error
+    - always
+    - allowLineBreak: false
+  flowtype/space-before-generic-bracket:
+    - error
+    - never
+  flowtype/space-before-type-colon:
+    - error
+    - never
+  flowtype/type-id-match:
+    - error
+    - '^([A-Z][a-z0-9]*)+(Type|Sig(nature)?)|(\$\w+)$'
+  flowtype/type-import-style:
+    - error
+    - declaration
+  flowtype/union-intersection-spacing:
+    - error
+    - always
+  flowtype/use-flow-type: error
+  flowtype/no-mixed: 'off'
+  flowtype/require-readonly-react-props: 'off'
+  flowtype/require-inexact-type: 'off'
+  flowtype/spread-exact-type: 'off'
+  import/order:
+    - error
+    - groups:
+        - builtin
+        - - external
+          - internal
+        - parent
+        - - index
+          - sibling
+      newlines-between: always
+  import/newline-after-import:
+    - error
+    - count: 2
+  import/group-exports: error
+  no-loops/no-loops: error
+  optimize-regex/optimize-regex: warn
+  promise/catch-or-return: error
+  promise/no-return-wrap: error
+  promise/param-names: error
+  promise/always-return: error
+  promise/no-native: 'off'
+  promise/no-nesting: error
+  promise/no-promise-in-callback: warn
+  promise/no-callback-in-promise: warn
+  promise/avoid-new: 'off'
+  promise/no-new-statics: error
+  promise/no-return-in-finally: warn
+  promise/valid-params: 'off'
+  promise/prefer-await-to-then: warn
+  promise/prefer-await-to-callbacks: 'off'
+  sort-class-members/sort-class-members:
+    - error
+    - order:
+        - '[static-properties]'
+        - '[properties]'
+        - constructor
+        - '[static-methods]'
+        - '[accessor-pairs]'
+        - '[arrow-function-properties]'
+        - '[methods]'
+        - '[everything-else]'
+      accessorPairPositioning: getThenSet
+      stopAfterFirstProblem: true
+  unicorn/catch-error-name: error
+  unicorn/explicit-length-check: error
+  unicorn/filename-case: 'off'
+  unicorn/no-abusive-eslint-disable: 'off'
+  unicorn/no-process-exit: 'off'
+  unicorn/throw-new-error: error
+  unicorn/number-literal-case: error
+  unicorn/escape-case: 'off'
+  unicorn/no-array-instanceof: error
+  unicorn/no-new-buffer: error
+  unicorn/no-hex-escape: error
+  unicorn/custom-error-definition: error
+  unicorn/prefer-starts-ends-with: error
+  unicorn/prefer-type-error: error
+  unicorn/no-fn-reference-in-iterator: warn
+  unicorn/import-index: 'off'
+  unicorn/new-for-builtins: error
+  unicorn/regex-shorthand: 'off'
+  unicorn/prefer-spread: error
+  unicorn/error-message: error
+  unicorn/no-unsafe-regex: warn
+  unicorn/prefer-add-event-listener: warn
+  unicorn/prefer-exponentiation-operator: 'off'
+  unicorn/no-console-spaces: 'off'
+  unicorn/no-unreadable-array-destructuring: warn
+  unicorn/no-unused-properties: warn
+  unicorn/prefer-node-append: 'off'
+  unicorn/prefer-query-selector: 'off'
+  unicorn/prefer-node-remove: 'off'
+  unicorn/prefer-text-content: 'off'
+  unicorn/no-for-loop: 'off'
+  unicorn/no-zero-fractions: error
+  unicorn/prefer-event-key: 'off'
+  unicorn/prefer-flat-map: error
+  unicorn/prefer-includes: error
+overrides:
+  - files:
+      - '*.types.js'
+      - '*.flow.js'
+    rules:
+      no-use-before-define: 'off'
+  - files:
+      - '*.types.js'
+      - '*.flow.js'
+    rules:
+      import/group-exports: 'off'

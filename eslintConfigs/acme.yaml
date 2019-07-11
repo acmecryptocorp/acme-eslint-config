@@ -1,0 +1,8 @@
+---
+plugins:
+  - '@acme/eslint-plugin'
+
+rules:
+  '@acme/require-variable-type': error
+  '@acme/require-exact-object-type': error
+  '@acme/type-export-filename': error

@@ -1,0 +1,8 @@
+---
+plugins:
+  - no-loops
+  - optimize-regex
+
+rules:
+  no-loops/no-loops: error
+  optimize-regex/optimize-regex: warn

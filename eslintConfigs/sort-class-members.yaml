@@ -1,0 +1,20 @@
+---
+plugins:
+  - sort-class-members
+
+rules:
+  sort-class-members/sort-class-members:
+    - error
+    - order:
+        - '[static-properties]'
+        - '[properties]'
+        - constructor
+        - '[static-methods]'
+        - '[accessor-pairs]' # NOTE: setter-getter pairs
+        # - '[getters]' # NOTE: doesn't seem to work
+        # - '[setters]'
+        - '[arrow-function-properties]'
+        - '[methods]'
+        - '[everything-else]'
+      accessorPairPositioning: getThenSet
+      stopAfterFirstProblem: true
