@@ -7,6 +7,15 @@
   resolved "https://npm.acmecryptocorp.io/@acme%2feslint-config/-/eslint-config-1.0.0.tgz#fe8d389a1dcba57d4dac0404563a7aa0c14d0798"
   integrity sha512-qU1qh4WY9JUeUHu1ICodDEfffwKlRfJT7Rt1SbxSwcT6AVavl2PvIMh34Rn2PN7iSpIDI1+MIjOrvEW2qTK/Xw==
 
+"@acme/eslint-plugin@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.acmecryptocorp.io/@acme%2feslint-plugin/-/eslint-plugin-1.0.0.tgz#09fc51776e7aa94fce09b0266129569abf790111"
+  integrity sha512-xGBclv1kOIQQjOUlyvq7zHDn6ScfxIO3V5Sv7j/pnUinHr4CU6L+naZncqHbBNuUW1wCMl3U5ty7iVgFI03lXA==
+  dependencies:
+    "@babel/runtime" "^7.4.3"
+    "@babel/types" "^7.4.0"
+    minimatch "^3.0.4"
+
 "@acmecryptocorp/eslint-plugin@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@acmecryptocorp/eslint-plugin/-/eslint-plugin-1.0.0.tgz#d819efbea6f9f320d8f0a9e3cba7b6176095a1cf"
