@@ -4,8 +4,8 @@ MAKEFLAGS += --silent
 GIT_BRANCH=$(shell git rev-parse --abbrev-ref HEAD)
 
 build:
-	yarn config-merger eslintConfigs/* --out src/eslintrc.json -f json
-	yarn config-merger eslintConfigs/* --out src/eslintrc.yml -f yaml
+	yarn mergy eslintConfigs/* --out src/eslintrc.json -f json
+	yarn mergy eslintConfigs/* --out src/eslintrc.yml -f yaml
 	make prettier
 .PHONY: build
 

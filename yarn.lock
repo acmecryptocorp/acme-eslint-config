@@ -2,15 +2,6 @@
 # yarn lockfile v1
 
 
-"@acme/config-merger@^1.0.1":
-  version "1.0.1"
-  resolved "https://npm.acmecryptocorp.io/@acme%2fconfig-merger/-/config-merger-1.0.1.tgz#00b593908e608f3790a6bba3e11329c0ec7f5f8b"
-  integrity sha512-+hTFn0C2WuV/1ArGPQiSfKjQu3PtCGOAFCFICO8zjrZgUOkdi0ugjWZv+vDksNx26N7hZQVt4cTjzkDv+5Oqaw==
-  dependencies:
-    commander "^2.19.0"
-    js-yaml "^3.12.2"
-    mz "^2.7.0"
-
 "@acme/eslint-config@^1.0.0":
   version "1.0.0"
   resolved "https://npm.acmecryptocorp.io/@acme%2feslint-config/-/eslint-config-1.0.0.tgz#fe8d389a1dcba57d4dac0404563a7aa0c14d0798"
@@ -6159,6 +6150,16 @@ merge@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.1.tgz#38bebf80c3220a8a487b6fcfb3941bb11720c145"
   integrity sha512-VjFo4P5Whtj4vsLzsYBu5ayHhoHJ0UqNm7ibvShmbmoz7tGi0vXaoJbGdB+GmDMLUdg8DpQXEIeVDAe8MaABvQ==
+
+mergy@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/mergy/-/mergy-1.0.0.tgz#408ae83d0f1fd969778ece8d82986177b16defae"
+  integrity sha512-K5OJtXBmTDERDx/hVPj8NxHeGAEPsrpaJWiTO65yVigfWaxEFTrOpYO25mCceCRXLMDYpT4w8oYsiLOseNIeWw==
+  dependencies:
+    "@babel/runtime" "^7.4.3"
+    commander "^2.19.0"
+    js-yaml "^3.12.2"
+    mz "^2.7.0"
 
 messageformat-formatters@^2.0.0:
   version "2.0.0"
