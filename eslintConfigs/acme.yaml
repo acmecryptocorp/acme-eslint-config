@@ -1,8 +1,8 @@
 ---
 plugins:
-  - '@acme/eslint-plugin'
+  - '@acmecryptocorp/eslint-plugin'
 
 rules:
-  '@acme/require-variable-type': error
-  '@acme/require-exact-object-type': error
-  '@acme/type-export-filename': error
+  '@acmecryptocorp/require-variable-type': error
+  '@acmecryptocorp/require-exact-object-type': error
+  '@acmecryptocorp/type-export-filename': error

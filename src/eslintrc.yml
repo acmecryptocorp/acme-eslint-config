@@ -1,5 +1,5 @@
 plugins:
-  - '@acme/eslint-plugin'
+  - '@acmecryptocorp/eslint-plugin'
   - eslint-comments
   - filenames
   - flowtype
@@ -10,9 +10,9 @@ plugins:
   - sort-class-members
   - unicorn
 rules:
-  '@acme/require-variable-type': error
-  '@acme/require-exact-object-type': error
-  '@acme/type-export-filename': error
+  '@acmecryptocorp/require-variable-type': error
+  '@acmecryptocorp/require-exact-object-type': error
+  '@acmecryptocorp/type-export-filename': error
   prefer-destructuring: 'off'
   implicit-arrow-linebreak: 'off'
   lines-between-class-members:
