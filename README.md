@@ -1,4 +1,4 @@
-# @acme/eslint-config
+# @acmecryptocorp/eslint-config
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
@@ -15,26 +15,26 @@ Install the **config** and **peer dependencies**:
 **npm**:
 
 ```
-npm install -D @acme/eslint-config
-npm install -D eslint eslint-plugin-filenames eslint-plugin-no-loops eslint-plugin-optimize-regex eslint-plugin-promise eslint-plugin-unicorn eslint-plugin-eslint-comments eslint-plugin-flowtype eslint-plugin-sort-class-members eslint-plugin-import @acme/eslint-plugin
+npm install -D @acmecryptocorp/eslint-config
+npm install -D eslint eslint-plugin-filenames eslint-plugin-no-loops eslint-plugin-optimize-regex eslint-plugin-promise eslint-plugin-unicorn eslint-plugin-eslint-comments eslint-plugin-flowtype eslint-plugin-sort-class-members eslint-plugin-import @acmecryptocorp/eslint-plugin
 ```
 
 **yarn**:
 
 ```
-yarn add --dev @acme/eslint-config
-yarn add --dev eslint eslint-plugin-filenames eslint-plugin-no-loops eslint-plugin-optimize-regex eslint-plugin-promise eslint-plugin-unicorn eslint-plugin-eslint-comments eslint-plugin-flowtype eslint-plugin-sort-class-members eslint-plugin-import @acme/eslint-plugin
+yarn add --dev @acmecryptocorp/eslint-config
+yarn add --dev eslint eslint-plugin-filenames eslint-plugin-no-loops eslint-plugin-optimize-regex eslint-plugin-promise eslint-plugin-unicorn eslint-plugin-eslint-comments eslint-plugin-flowtype eslint-plugin-sort-class-members eslint-plugin-import @acmecryptocorp/eslint-plugin
 ```
 
 ## Usage
 
-Add `@acme` to your `.eslintrc`:
+Add `@acmecryptocorp` to your `.eslintrc`:
 
 **.eslintrc.json**
 
 ```json
 "extends": [
-  "@acme"
+  "@acmecryptocorp"
 ]
 ```
 
@@ -42,7 +42,7 @@ Add `@acme` to your `.eslintrc`:
 
 ```yaml
 extends:
-  - '@acme'
+  - '@acmecryptocorp'
 ```
 
 ## Notes
@@ -68,7 +68,7 @@ or
 
 ## Links
 
-- [@acme/eslint-plugin](https://gitlab.acmecryptocorp.io/andrew.yaushev/eslint-plugin)
+- [@acmecryptocorp/eslint-plugin](https://github.com/acmecryptocorp/acme-eslint-plugin)
 - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
 - [eslint-plugin-no-loops](https://github.com/buildo/eslint-plugin-no-loops)
 - [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)
