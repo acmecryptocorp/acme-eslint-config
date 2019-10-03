@@ -39,6 +39,7 @@ rules:
   unicorn/prefer-reflect-apply: warn
   unicorn/prefer-spread: error
   unicorn/prefer-starts-ends-with: error
+  unicorn/prefer-string-slice: error
   unicorn/prefer-text-content: "off"
   unicorn/prefer-type-error: error
   unicorn/prevent-abbreveations: off
