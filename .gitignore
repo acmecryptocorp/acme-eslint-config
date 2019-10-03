@@ -3,7 +3,6 @@ dist
 coverage
 flow-coverage
 flow-typed
-configs
 temp
 .env
 .diff
