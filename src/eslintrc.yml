@@ -208,3 +208,5 @@ overrides:
       - '*.flow.js'
     rules:
       import/group-exports: 'off'
+extends:
+  - airbnb-base
