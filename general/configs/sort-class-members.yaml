@@ -5,16 +5,16 @@ plugins:
 rules:
   sort-class-members/sort-class-members:
     - error
-    - order:
+    - accessorPairPositioning: getThenSet
+      order:
         - "[static-properties]"
         - "[properties]"
         - constructor
-        - "[static-methods]"
-        - "[accessor-pairs]" # NOTE: setter-getter pairs
-        # - '[getters]' # NOTE: doesn't seem to work
-        # - '[setters]'
+        - "[static-methods]" # NOTE: setter-getter pairs
+          # - '[getters]' # NOTE: doesn't seem to work
+          # - '[setters]'
+        - "[accessor-pairs]"
         - "[arrow-function-properties]"
         - "[methods]"
         - "[everything-else]"
-      accessorPairPositioning: getThenSet
       stopAfterFirstProblem: true

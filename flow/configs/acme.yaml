@@ -3,6 +3,6 @@ plugins:
   - "@acmecryptocorp/eslint-plugin"
 
 rules:
-  "@acmecryptocorp/require-variable-type": error
   "@acmecryptocorp/require-exact-object-type": error
+  "@acmecryptocorp/require-variable-type": error
   "@acmecryptocorp/type-export-filename": error

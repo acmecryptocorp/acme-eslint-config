@@ -3,9 +3,9 @@ plugins:
   - filenames
 
 rules:
+  filenames/match-exported: error
   filenames/match-regex:
     - error
-    - ^([A-Z]?[a-z]+(\d*\.)?)+$
+    - '^([A-Z]?[a-z]+(\d*\.)?)+$'
     - true
-  filenames/match-exported: error
-  filenames/no-index: off
+  filenames/no-index: "off"
