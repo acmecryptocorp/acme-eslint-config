@@ -12,7 +12,7 @@ rules:
 
 overrides:
   - files:
-      - '*.types.js'
-      - '*.flow.js'
+      - "*.types.js"
+      - "*.flow.js"
     rules:
       no-use-before-define: off
