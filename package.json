@@ -2,7 +2,7 @@
   "name": "@acmecryptocorp/eslint-config",
   "version": "1.0.0",
   "description": "Acme Crypto Corp's extensible config for ESlint",
-  "main": "src/index.js",
+  "main": "index.js",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -12,7 +12,7 @@
     "acmecryptocorp"
   ],
   "files": [
-    "src"
+    "{general,flow}/{eslintrc.json,index.js}"
   ],
   "scripts": {
     "test": "jest",
