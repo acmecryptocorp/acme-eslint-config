@@ -3,6 +3,7 @@ plugins:
   - import
 
 rules:
+  import/group-exports: error
   import/order:
     - error
     - groups:
@@ -13,7 +14,6 @@ rules:
         - - index
           - sibling
       newlines-between: always
-  import/group-exports: error
 
 overrides:
   - files:

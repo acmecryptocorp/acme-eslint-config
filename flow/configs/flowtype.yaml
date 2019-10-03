@@ -12,11 +12,11 @@ rules:
   flowtype/boolean-style:
     - error
     - boolean
-  flowtype/define-flow-type: error # NOTE: 'off' reports undefined types, 'warn' and 'error' don't NOTE: reports flow utils type
+  flowtype/define-flow-type: error # NOTE: 'off' reports undefined types, 'warn' or 'error' doesn't NOTE: reports flow utils type
   flowtype/delimiter-dangle:
     - error
     - always-multiline
-  flowtype/generic-spacing: off
+  flowtype/generic-spacing: "off"
   flowtype/newline-after-flow-annotation:
     - error
     - always
@@ -25,32 +25,34 @@ rules:
   flowtype/no-flow-fix-me-comments:
     - warn
     - \s+\w+
+  flowtype/no-mixed: "off"
   flowtype/no-mutable-array: warn
   flowtype/no-primitive-constructor-types: error
   flowtype/no-types-missing-file-annotation: error
-  no-unused-expressions: off
   flowtype/no-unused-expressions: error # NOTE: overwrite no-unused-expression to not report type casts
   flowtype/no-weak-types: warn
   flowtype/object-type-delimiter:
     - error
     - comma
-  flowtype/require-compound-type-alias: off
-  flowtype/require-exact-type: off # NOTE: see @acme/eslint-plugin
+  flowtype/require-compound-type-alias: "off"
+  flowtype/require-exact-type: "off"
+  flowtype/require-inexact-type: "off" # NOTE: see @acme/eslint-plugin
   flowtype/require-parameter-type:
     - error
+  flowtype/require-readonly-react-props: "off"
   flowtype/require-return-type:
     - error
     - always
-  flowtype/require-types-at-top: off
+  flowtype/require-types-at-top: "off"
   flowtype/require-valid-file-annotation:
     - error
     - never
     - annotationStyle: line
-  flowtype/require-variable-type: off # NOTE: see @acme/eslint-plugin
+  flowtype/require-variable-type: "off" # NOTE: see @acme/eslint-plugin
   flowtype/semi:
     - error
     - always
-  flowtype/sort-keys: off
+  flowtype/sort-keys: "off"
   flowtype/space-after-type-colon:
     - error
     - always
@@ -61,9 +63,10 @@ rules:
   flowtype/space-before-type-colon:
     - error
     - never
+  flowtype/spread-exact-type: "off"
   flowtype/type-id-match:
     - error
-    - ^([A-Z][a-z0-9]*)+(Type|Sig(nature)?)|(\$\w+)$
+    - '^([A-Z][a-z0-9]*)+(Type|Sig(nature)?)|(\$\w+)$'
   flowtype/type-import-style:
     - error
     - declaration
@@ -71,7 +74,4 @@ rules:
     - error
     - always
   flowtype/use-flow-type: error
-  flowtype/no-mixed: off
-  flowtype/require-readonly-react-props: off
-  flowtype/require-inexact-type: off
-  flowtype/spread-exact-type: off
+  no-unused-expressions: "off"
