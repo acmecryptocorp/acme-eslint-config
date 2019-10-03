@@ -76,7 +76,7 @@ rules:
   unicorn/no-abusive-eslint-disable: "off"
   unicorn/no-array-instanceof: error
   unicorn/no-console-spaces: "off"
-  unicorn/no-fn-reference-in-iterator: warn
+  unicorn/no-fn-reference-in-iterator: "off"
   unicorn/no-for-loop: "off"
   unicorn/no-hex-escape: error
   unicorn/no-keyword-prefix: "off"
