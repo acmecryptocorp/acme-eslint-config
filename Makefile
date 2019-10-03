@@ -4,8 +4,12 @@ MAKEFLAGS += --silent
 GIT_BRANCH=$(shell git rev-parse --abbrev-ref HEAD)
 
 build:
-	yarn mergy eslintConfigs/* --out src/eslintrc.json -f json
-	yarn mergy eslintConfigs/* --out src/eslintrc.yml -f yaml
+	yarn mergy general/configs/* --out general/eslintrc.json -f json
+	yarn mergy general/configs/* --out general/eslintrc.yaml -f yaml
+
+	yarn mergy flow/configs/* --out flow/eslintrc.json -f json
+	yarn mergy flow/configs/* --out flow/eslintrc.yaml -f yaml
+
 	make prettier
 .PHONY: build
 
@@ -39,7 +43,7 @@ full-test: lint flow test
 .PHONY: full-test
 
 prettier:
-	yarn prettier-eslint --write "src/**/*.{js,json,yaml}"
+	yarn prettier --write "{general,flow}/**/*.{js,json,yaml}" "index.js"
 .PHONY: prettier
 
 test-publish: build full-test
