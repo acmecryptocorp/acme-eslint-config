@@ -13,3 +13,8 @@ extends:
 
 plugins:
   - jest
+
+rules:
+  quotes: off
+  import/newline-after-import: off
+  no-confusing-arrow: off
