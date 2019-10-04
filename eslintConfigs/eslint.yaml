@@ -1,23 +1,14 @@
 ---
 rules:
-  prefer-destructuring: off
-  implicit-arrow-linebreak: off
+  curly:
+    - error
+    - all
   lines-between-class-members:
     - error
     - always
     - exceptAfterSingleLine: true
-  max-len:
-    - error
-    - code: 160
-      tabWidth: 2
-      comments: 100
-      ignoreComments: true
-      ignoreTrailingComments: true
-      ignoreUrls: true
-      ignoreStrings: true
-      ignoreTemplateLiterals: true
-      ignoreRegExpLiterals: true
-  arrow-parens: off
+  prefer-arrow-callback: error
+  prefer-destructuring: off
 
 overrides:
   - files:

@@ -13,9 +13,6 @@ rules:
         - - index
           - sibling
       newlines-between: always
-  import/newline-after-import:
-    - error
-    - count: 2
   import/group-exports: error
 
 overrides:

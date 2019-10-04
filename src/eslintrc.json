@@ -15,8 +15,7 @@
     "@acmecryptocorp/require-variable-type": "error",
     "@acmecryptocorp/require-exact-object-type": "error",
     "@acmecryptocorp/type-export-filename": "error",
-    "prefer-destructuring": "off",
-    "implicit-arrow-linebreak": "off",
+    "curly": ["error", "all"],
     "lines-between-class-members": [
       "error",
       "always",
@@ -24,21 +23,8 @@
         "exceptAfterSingleLine": true
       }
     ],
-    "max-len": [
-      "error",
-      {
-        "code": 160,
-        "tabWidth": 2,
-        "comments": 100,
-        "ignoreComments": true,
-        "ignoreTrailingComments": true,
-        "ignoreUrls": true,
-        "ignoreStrings": true,
-        "ignoreTemplateLiterals": true,
-        "ignoreRegExpLiterals": true
-      }
-    ],
-    "arrow-parens": "off",
+    "prefer-arrow-callback": "error",
+    "prefer-destructuring": "off",
     "eslint-comments/disable-enable-pair": [
       "error",
       {
@@ -109,12 +95,6 @@
       {
         "groups": ["builtin", ["external", "internal"], "parent", ["index", "sibling"]],
         "newlines-between": "always"
-      }
-    ],
-    "import/newline-after-import": [
-      "error",
-      {
-        "count": 2
       }
     ],
     "import/group-exports": "error",
@@ -201,5 +181,5 @@
       }
     }
   ],
-  "extends": ["airbnb-base"]
+  "extends": ["airbnb-base", "prettier"]
 }
