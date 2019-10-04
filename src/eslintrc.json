@@ -200,5 +200,6 @@
         "import/group-exports": "off"
       }
     }
-  ]
+  ],
+  "extends": ["airbnb-base"]
 }

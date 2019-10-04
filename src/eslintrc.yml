@@ -1,5 +1,5 @@
 plugins:
-  - '@acmecryptocorp/eslint-plugin'
+  - "@acmecryptocorp/eslint-plugin"
   - eslint-comments
   - filenames
   - flowtype
@@ -10,11 +10,11 @@ plugins:
   - sort-class-members
   - unicorn
 rules:
-  '@acmecryptocorp/require-variable-type': error
-  '@acmecryptocorp/require-exact-object-type': error
-  '@acmecryptocorp/type-export-filename': error
-  prefer-destructuring: 'off'
-  implicit-arrow-linebreak: 'off'
+  "@acmecryptocorp/require-variable-type": error
+  "@acmecryptocorp/require-exact-object-type": error
+  "@acmecryptocorp/type-export-filename": error
+  prefer-destructuring: "off"
+  implicit-arrow-linebreak: "off"
   lines-between-class-members:
     - error
     - always
@@ -30,7 +30,7 @@ rules:
       ignoreStrings: true
       ignoreTemplateLiterals: true
       ignoreRegExpLiterals: true
-  arrow-parens: 'off'
+  arrow-parens: "off"
   eslint-comments/disable-enable-pair:
     - error
     - allowWholeFile: true
@@ -39,14 +39,14 @@ rules:
   eslint-comments/no-unlimited-disable: error
   eslint-comments/no-unused-disable: error
   eslint-comments/no-unused-enable: error
-  eslint-comments/no-restricted-disable: 'off'
-  eslint-comments/no-use: 'off'
+  eslint-comments/no-restricted-disable: "off"
+  eslint-comments/no-use: "off"
   filenames/match-regex:
     - error
     - '^([A-Z]?[a-z]+(\d*\.)?)+$'
     - true
   filenames/match-exported: error
-  filenames/no-index: 'off'
+  filenames/no-index: "off"
   flowtype/array-style-complex-type:
     - error
     - verbose
@@ -60,7 +60,7 @@ rules:
   flowtype/delimiter-dangle:
     - error
     - always-multiline
-  flowtype/generic-spacing: 'off'
+  flowtype/generic-spacing: "off"
   flowtype/newline-after-flow-annotation:
     - error
     - always
@@ -72,29 +72,29 @@ rules:
   flowtype/no-mutable-array: warn
   flowtype/no-primitive-constructor-types: error
   flowtype/no-types-missing-file-annotation: error
-  no-unused-expressions: 'off'
+  no-unused-expressions: "off"
   flowtype/no-unused-expressions: error
   flowtype/no-weak-types: warn
   flowtype/object-type-delimiter:
     - error
     - comma
-  flowtype/require-compound-type-alias: 'off'
-  flowtype/require-exact-type: 'off'
+  flowtype/require-compound-type-alias: "off"
+  flowtype/require-exact-type: "off"
   flowtype/require-parameter-type:
     - error
   flowtype/require-return-type:
     - error
     - always
-  flowtype/require-types-at-top: 'off'
+  flowtype/require-types-at-top: "off"
   flowtype/require-valid-file-annotation:
     - error
     - never
     - annotationStyle: line
-  flowtype/require-variable-type: 'off'
+  flowtype/require-variable-type: "off"
   flowtype/semi:
     - error
     - always
-  flowtype/sort-keys: 'off'
+  flowtype/sort-keys: "off"
   flowtype/space-after-type-colon:
     - error
     - always
@@ -115,10 +115,10 @@ rules:
     - error
     - always
   flowtype/use-flow-type: error
-  flowtype/no-mixed: 'off'
-  flowtype/require-readonly-react-props: 'off'
-  flowtype/require-inexact-type: 'off'
-  flowtype/spread-exact-type: 'off'
+  flowtype/no-mixed: "off"
+  flowtype/require-readonly-react-props: "off"
+  flowtype/require-inexact-type: "off"
+  flowtype/spread-exact-type: "off"
   import/order:
     - error
     - groups:
@@ -139,37 +139,37 @@ rules:
   promise/no-return-wrap: error
   promise/param-names: error
   promise/always-return: error
-  promise/no-native: 'off'
+  promise/no-native: "off"
   promise/no-nesting: error
   promise/no-promise-in-callback: warn
   promise/no-callback-in-promise: warn
-  promise/avoid-new: 'off'
+  promise/avoid-new: "off"
   promise/no-new-statics: error
   promise/no-return-in-finally: warn
-  promise/valid-params: 'off'
+  promise/valid-params: "off"
   promise/prefer-await-to-then: warn
-  promise/prefer-await-to-callbacks: 'off'
+  promise/prefer-await-to-callbacks: "off"
   sort-class-members/sort-class-members:
     - error
     - order:
-        - '[static-properties]'
-        - '[properties]'
+        - "[static-properties]"
+        - "[properties]"
         - constructor
-        - '[static-methods]'
-        - '[accessor-pairs]'
-        - '[arrow-function-properties]'
-        - '[methods]'
-        - '[everything-else]'
+        - "[static-methods]"
+        - "[accessor-pairs]"
+        - "[arrow-function-properties]"
+        - "[methods]"
+        - "[everything-else]"
       accessorPairPositioning: getThenSet
       stopAfterFirstProblem: true
   unicorn/catch-error-name: error
   unicorn/explicit-length-check: error
-  unicorn/filename-case: 'off'
-  unicorn/no-abusive-eslint-disable: 'off'
-  unicorn/no-process-exit: 'off'
+  unicorn/filename-case: "off"
+  unicorn/no-abusive-eslint-disable: "off"
+  unicorn/no-process-exit: "off"
   unicorn/throw-new-error: error
   unicorn/number-literal-case: error
-  unicorn/escape-case: 'off'
+  unicorn/escape-case: "off"
   unicorn/no-array-instanceof: error
   unicorn/no-new-buffer: error
   unicorn/no-hex-escape: error
@@ -177,34 +177,36 @@ rules:
   unicorn/prefer-starts-ends-with: error
   unicorn/prefer-type-error: error
   unicorn/no-fn-reference-in-iterator: warn
-  unicorn/import-index: 'off'
+  unicorn/import-index: "off"
   unicorn/new-for-builtins: error
-  unicorn/regex-shorthand: 'off'
+  unicorn/regex-shorthand: "off"
   unicorn/prefer-spread: error
   unicorn/error-message: error
   unicorn/no-unsafe-regex: warn
   unicorn/prefer-add-event-listener: warn
-  unicorn/prefer-exponentiation-operator: 'off'
-  unicorn/no-console-spaces: 'off'
+  unicorn/prefer-exponentiation-operator: "off"
+  unicorn/no-console-spaces: "off"
   unicorn/no-unreadable-array-destructuring: warn
   unicorn/no-unused-properties: warn
-  unicorn/prefer-node-append: 'off'
-  unicorn/prefer-query-selector: 'off'
-  unicorn/prefer-node-remove: 'off'
-  unicorn/prefer-text-content: 'off'
-  unicorn/no-for-loop: 'off'
+  unicorn/prefer-node-append: "off"
+  unicorn/prefer-query-selector: "off"
+  unicorn/prefer-node-remove: "off"
+  unicorn/prefer-text-content: "off"
+  unicorn/no-for-loop: "off"
   unicorn/no-zero-fractions: error
-  unicorn/prefer-event-key: 'off'
+  unicorn/prefer-event-key: "off"
   unicorn/prefer-flat-map: error
   unicorn/prefer-includes: error
 overrides:
   - files:
-      - '*.types.js'
-      - '*.flow.js'
+      - "*.types.js"
+      - "*.flow.js"
     rules:
-      no-use-before-define: 'off'
+      no-use-before-define: "off"
   - files:
-      - '*.types.js'
-      - '*.flow.js'
+      - "*.types.js"
+      - "*.flow.js"
     rules:
-      import/group-exports: 'off'
+      import/group-exports: "off"
+extends:
+  - airbnb-base
