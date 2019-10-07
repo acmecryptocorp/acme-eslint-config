@@ -2,7 +2,7 @@
   "plugins": ["@acmecryptocorp/eslint-plugin", "flowtype"],
   "rules": {
     "@acmecryptocorp/require-exact-object-type": "error",
-    "@acmecryptocorp/require-variable-type": "error",
+    "@acmecryptocorp/require-variable-type": "off",
     "@acmecryptocorp/type-export-filename": "error",
     "flowtype/array-style-complex-type": ["error", "verbose"],
     "flowtype/array-style-simple-type": ["error", "verbose"],
@@ -28,7 +28,13 @@
     "flowtype/require-inexact-type": "off",
     "flowtype/require-parameter-type": "error",
     "flowtype/require-readonly-react-props": "off",
-    "flowtype/require-return-type": ["error", "always"],
+    "flowtype/require-return-type": [
+      "error",
+      "always",
+      {
+        "excludeArrowFunctions": "expressionsOnly"
+      }
+    ],
     "flowtype/require-types-at-top": "off",
     "flowtype/require-valid-file-annotation": [
       "error",
@@ -44,7 +50,7 @@
     "flowtype/space-before-generic-bracket": "off",
     "flowtype/space-before-type-colon": "off",
     "flowtype/spread-exact-type": "off",
-    "flowtype/type-id-match": ["error", "^([A-Z][a-z0-9]*)+(Type|Sig(nature)?)|(\\$\\w+)$"],
+    "flowtype/type-id-match": ["error", "^([A-Z][a-z0-9]*)+Type|(\\$[A-Z][A-Za-z0-9]*)$"],
     "flowtype/type-import-style": ["error", "declaration"],
     "flowtype/union-intersection-spacing": "off",
     "flowtype/use-flow-type": "error",

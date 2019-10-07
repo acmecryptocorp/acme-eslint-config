@@ -3,7 +3,7 @@ plugins:
   - flowtype
 rules:
   "@acmecryptocorp/require-exact-object-type": error
-  "@acmecryptocorp/require-variable-type": error
+  "@acmecryptocorp/require-variable-type": "off"
   "@acmecryptocorp/type-export-filename": error
   flowtype/array-style-complex-type:
     - error
@@ -42,6 +42,7 @@ rules:
   flowtype/require-return-type:
     - error
     - always
+    - excludeArrowFunctions: expressionsOnly
   flowtype/require-types-at-top: "off"
   flowtype/require-valid-file-annotation:
     - error
@@ -56,7 +57,7 @@ rules:
   flowtype/spread-exact-type: "off"
   flowtype/type-id-match:
     - error
-    - '^([A-Z][a-z0-9]*)+(Type|Sig(nature)?)|(\$\w+)$'
+    - '^([A-Z][a-z0-9]*)+Type|(\$[A-Z][A-Za-z0-9]*)$'
   flowtype/type-import-style:
     - error
     - declaration
