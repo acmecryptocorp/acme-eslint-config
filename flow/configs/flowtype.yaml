@@ -9,13 +9,12 @@ rules:
   flowtype/array-style-simple-type:
     - error
     - verbose
+  flowtype/arrow-parens: off
   flowtype/boolean-style:
     - error
     - boolean
   flowtype/define-flow-type: error # NOTE: 'off' reports undefined types, 'warn' or 'error' doesn't NOTE: reports flow utils type
-  flowtype/delimiter-dangle:
-    - error
-    - always-multiline
+  flowtype/delimiter-dangle: off
   flowtype/generic-spacing: "off"
   flowtype/newline-after-flow-annotation:
     - error
@@ -31,14 +30,12 @@ rules:
   flowtype/no-types-missing-file-annotation: error
   flowtype/no-unused-expressions: error # NOTE: overwrite no-unused-expression to not report type casts
   flowtype/no-weak-types: warn
-  flowtype/object-type-delimiter:
-    - error
-    - comma
+  flowtype/object-type-delimiter: off
   flowtype/require-compound-type-alias: "off"
-  flowtype/require-exact-type: "off"
-  flowtype/require-inexact-type: "off" # NOTE: see @acme/eslint-plugin
-  flowtype/require-parameter-type:
-    - error
+  flowtype/require-exact-type: "off" # NOTE: not recursive see @acmecryptocorp/eslint-plugin
+  flowtype/require-indexer-name: off
+  flowtype/require-inexact-type: "off" # NOTE: see @acmecryptocorp/eslint-plugin
+  flowtype/require-parameter-type: error
   flowtype/require-readonly-react-props: "off"
   flowtype/require-return-type:
     - error
@@ -48,21 +45,12 @@ rules:
     - error
     - never
     - annotationStyle: line
-  flowtype/require-variable-type: "off" # NOTE: see @acme/eslint-plugin
-  flowtype/semi:
-    - error
-    - always
+  flowtype/require-variable-type: "off" # NOTE: see @acmecryptocorp/eslint-plugin
+  flowtype/semi: off
   flowtype/sort-keys: "off"
-  flowtype/space-after-type-colon:
-    - error
-    - always
-    - allowLineBreak: false
-  flowtype/space-before-generic-bracket:
-    - error
-    - never
-  flowtype/space-before-type-colon:
-    - error
-    - never
+  flowtype/space-after-type-colon: off
+  flowtype/space-before-generic-bracket: off
+  flowtype/space-before-type-colon: off
   flowtype/spread-exact-type: "off"
   flowtype/type-id-match:
     - error
@@ -70,8 +58,10 @@ rules:
   flowtype/type-import-style:
     - error
     - declaration
-  flowtype/union-intersection-spacing:
-    - error
-    - always
+  flowtype/union-intersection-spacing: off
   flowtype/use-flow-type: error
   no-unused-expressions: "off"
+
+settings:
+  flowtype:
+    onlyFilesWithFlowAnnotation: true
