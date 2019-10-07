@@ -8,6 +8,11 @@ rules:
     - exceptAfterSingleLine: true
   prefer-arrow-callback: error
   prefer-destructuring: "off"
+  quotes:
+    - error
+    - single
+    - avoidEscape: true
+      allowTemplateLiterals: false
   eslint-comments/disable-enable-pair:
     - error
     - allowWholeFile: true
