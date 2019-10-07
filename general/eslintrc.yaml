@@ -24,10 +24,7 @@ rules:
   eslint-comments/no-unused-enable: error
   eslint-comments/no-use: "off"
   filenames/match-exported: error
-  filenames/match-regex:
-    - error
-    - '^([A-Z]?[a-z]+(\d*\.)?)+$'
-    - true
+  filenames/match-regex: "off"
   filenames/no-index: "off"
   import/group-exports: error
   import/order:
@@ -75,7 +72,11 @@ rules:
   unicorn/escape-case: "off"
   unicorn/expiring-todo-comments: "off"
   unicorn/explicit-length-check: error
-  unicorn/filename-case: "off"
+  unicorn/filename-case:
+    - error
+    - cases:
+        camelCase: true
+        pascalCase: true
   unicorn/import-index: "off"
   unicorn/new-for-builtins: error
   unicorn/no-abusive-eslint-disable: "off"

@@ -9,7 +9,11 @@ rules:
   unicorn/escape-case: "off"
   unicorn/expiring-todo-comments: off
   unicorn/explicit-length-check: error
-  unicorn/filename-case: "off" # NOTE: redundant -- eslint-plugin-filenames
+  unicorn/filename-case:
+    - error
+    - cases:
+        camelCase: true
+        pascalCase: true
   unicorn/import-index: "off" # NOTE: redundant -- eslint-plugin-import
   unicorn/new-for-builtins: error
   unicorn/no-abusive-eslint-disable: "off" # NOTE: redundant -- eslint-plugin-eslint-comments
