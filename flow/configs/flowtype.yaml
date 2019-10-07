@@ -40,6 +40,7 @@ rules:
   flowtype/require-return-type:
     - error
     - always
+    - excludeArrowFunctions: expressionsOnly
   flowtype/require-types-at-top: "off"
   flowtype/require-valid-file-annotation:
     - error
