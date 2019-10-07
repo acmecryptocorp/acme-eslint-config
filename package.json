@@ -1,6 +1,6 @@
 {
   "name": "@acmecryptocorp/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Acme Crypto Corp's extensible config for ESlint",
   "main": "index.js",
   "keywords": [
@@ -86,5 +86,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
