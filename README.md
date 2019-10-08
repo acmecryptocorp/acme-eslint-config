@@ -10,25 +10,25 @@
 
 Install the **config**
 
-```sh
+```shell
 npm install -D @acmecryptocorp/eslint-config
 ```
 
-```sh
+```shell
 yarn add --dev @acmecryptocorp/eslint-config
 ```
 
 and **peer dependencies**:
 
-```sh
-npx install-peerdeps @acmecryptocorp/eslint-config
+```shell
+npx install-peerdeps --dev @acmecryptocorp/eslint-config
 ```
 
 or manually:
 
 **npm**:
 
-```sh
+```shell
 npm install -D eslint \
   @acmecryptocorp/eslint-plugin \
   eslint-config-airbnb \
@@ -46,7 +46,7 @@ npm install -D eslint \
 
 **yarn**:
 
-```sh
+```shell
 yarn add --dev eslint \
   @acmecryptocorp/eslint-plugin \
   eslint-config-airbnb \
@@ -81,8 +81,8 @@ Add desired configuration to your `.eslintrc`:
 
 ```yaml
 extends:
-  - "@acmecryptocorp"
-  - "@acmecryptocorp/eslint-config/flow"
+  - '@acmecryptocorp'
+  - '@acmecryptocorp/eslint-config/flow'
 ```
 
 ## Notes
