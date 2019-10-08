@@ -2,6 +2,10 @@
 
 import { peerDependencies } from '../package.json';
 import { plugins as flowPlugins, extends as flowConfigs } from '../flow';
+import {
+  plugins as typescriptPlugins,
+  extends as typescriptsConfis,
+} from '../typescript-beta';
 
 import { plugins as generalPlugins, extends as generalConfigs } from '..';
 
@@ -33,16 +37,16 @@ const mergeAndNormalize = (
 
 test('peerDependencies', () => {
   const plugins: $ReadOnlyArray<string> = mergeAndNormalize(
-    [generalPlugins, flowPlugins],
+    [generalPlugins, flowPlugins, typescriptPlugins],
     normalizePluginName,
   );
 
   const configs: $ReadOnlyArray<string> = mergeAndNormalize(
-    [generalConfigs, flowConfigs],
+    [generalConfigs, flowConfigs, typescriptsConfis],
     normalizeConfigName,
   );
 
-  const constantPeerDeps: $ReadOnlyArray<string> = ['eslint'];
+  const constantPeerDeps: $ReadOnlyArray<string> = ['eslint', 'typescript'];
   const targetPeerDependencies: Set<string> = new Set([
     ...constantPeerDeps,
     ...plugins,
