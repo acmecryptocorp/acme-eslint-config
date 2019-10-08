@@ -6,15 +6,10 @@ env:
 parser: babel-eslint
 
 extends:
-  - airbnb-base
-  - '@acmecryptocorp'
-  - 'plugin:jest/recommended'
-  - 'plugin:jest/style'
+  - "@acmecryptocorp"
+  - "@acmecryptocorp/eslint-config/flow"
+  - "plugin:jest/recommended"
+  - "plugin:jest/style"
 
 plugins:
   - jest
-
-rules:
-  quotes: off
-  import/newline-after-import: off
-  no-confusing-arrow: off

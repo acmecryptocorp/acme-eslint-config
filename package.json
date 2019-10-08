@@ -1,6 +1,6 @@
 {
   "name": "@acmecryptocorp/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Acme Crypto Corp's extensible config for ESlint",
   "main": "index.js",
   "keywords": [
@@ -29,8 +29,9 @@
   "author": "",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@acmecryptocorp/eslint-config": "^1.0.0",
+    "@acmecryptocorp/eslint-config": "2.0.0",
     "@acmecryptocorp/eslint-plugin": "^1.0.0",
+    "@acmecryptocorp/prettier-config": "^1.0.0",
     "@babel/core": "^7.6.2",
     "@babel/node": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
@@ -63,15 +64,13 @@
     "js-yaml": "^3.13.1",
     "mergy": "^1.0.0",
     "prettier": "^1.17.1",
-    "prettier-eslint": "^9.0.0",
-    "prettier-eslint-cli": "^5.0.0",
     "semantic-release": "^15.13.24"
   },
   "peerDependencies": {
     "@acmecryptocorp/eslint-plugin": "^1.0.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-filenames": "^1.3.2",
     "eslint-plugin-flowtype": "^4.3.0",
@@ -86,5 +85,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
