@@ -7,7 +7,7 @@ rules:
     - always
     - exceptAfterSingleLine: true
   prefer-arrow-callback: error
-  prefer-destructuring: "off"
+  prefer-destructuring: 'off'
   quotes:
     - error
     - single
@@ -16,7 +16,7 @@ rules:
 
 overrides:
   - files:
-      - "*.flow.js"
-      - "*.types.js"
+      - '*.flow.js'
+      - '*.types.js'
     rules:
-      no-use-before-define: "off"
+      no-use-before-define: 'off'

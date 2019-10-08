@@ -7,14 +7,14 @@ rules:
     - error
     - accessorPairPositioning: getThenSet
       order:
-        - "[static-properties]"
-        - "[properties]"
+        - '[static-properties]'
+        - '[properties]'
         - constructor
-        - "[static-methods]" # NOTE: setter-getter pairs
+        - '[static-methods]' # NOTE: setter-getter pairs
           # - '[getters]' # NOTE: doesn't seem to work
           # - '[setters]'
-        - "[accessor-pairs]"
-        - "[arrow-function-properties]"
-        - "[methods]"
-        - "[everything-else]"
+        - '[accessor-pairs]'
+        - '[arrow-function-properties]'
+        - '[methods]'
+        - '[everything-else]'
       stopAfterFirstProblem: true

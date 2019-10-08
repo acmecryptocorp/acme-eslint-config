@@ -1,1 +1,1 @@
-module.exports = require("./general");
+module.exports = require('./general');

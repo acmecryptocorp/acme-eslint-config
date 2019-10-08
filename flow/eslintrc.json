@@ -50,7 +50,10 @@
     "flowtype/space-before-generic-bracket": "off",
     "flowtype/space-before-type-colon": "off",
     "flowtype/spread-exact-type": "off",
-    "flowtype/type-id-match": ["error", "^([A-Z][a-z0-9]*)+Type|(\\$[A-Z][A-Za-z0-9]*)$"],
+    "flowtype/type-id-match": [
+      "error",
+      "^([A-Z][a-z0-9]*)+Type|(\\$[A-Z][A-Za-z0-9]*)$"
+    ],
     "flowtype/type-import-style": ["error", "declaration"],
     "flowtype/union-intersection-spacing": "off",
     "flowtype/use-flow-type": "error",

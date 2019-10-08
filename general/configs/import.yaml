@@ -17,7 +17,7 @@ rules:
 
 overrides:
   - files:
-      - "*.types.js"
-      - "*.flow.js"
+      - '*.types.js'
+      - '*.flow.js'
     rules:
       import/group-exports: off
