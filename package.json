@@ -39,7 +39,6 @@
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/git": "^7.0.8",
     "@semantic-release/github": "^5.5.0",
-    "babel-eslint": "^10.0.3",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.5.1",
@@ -92,6 +91,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^2.3.3"
+    "@typescript-eslint/parser": "^2.3.3",
+    "babel-eslint": "^10.0.3"
   }
 }

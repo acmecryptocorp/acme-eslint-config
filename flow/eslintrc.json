@@ -63,5 +63,6 @@
     "flowtype": {
       "onlyFilesWithFlowAnnotation": true
     }
-  }
+  },
+  "parser": "babel-eslint"
 }
