@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/acmecryptocorp/acme-eslint-config/compare/v2.0.0...v2.1.0) (2019-10-08)
+
+
+### Features
+
+* **configs:flow:** add `babel-eslint` parser into configuration ([9916c9b](https://github.com/acmecryptocorp/acme-eslint-config/commit/9916c9b))
+* **configs:typescript:** add `@acmecryptocorp/eslint-config/typescript-beta` config ([9b44d68](https://github.com/acmecryptocorp/acme-eslint-config/commit/9b44d68))
+
 # [2.0.0](https://github.com/acmecryptocorp/acme-eslint-config/compare/v1.0.0...v2.0.0) (2019-10-07)
 
 
