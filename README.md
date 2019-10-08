@@ -31,6 +31,7 @@ or manually:
 ```shell
 npm install -D eslint \
   @acmecryptocorp/eslint-plugin \
+  @typescript-eslint/eslint-plugin \
   eslint-config-airbnb \
   eslint-config-prettier \
   eslint-plugin-eslint-comments \
@@ -41,7 +42,8 @@ npm install -D eslint \
   eslint-plugin-optimize-regex \
   eslint-plugin-promise \
   eslint-plugin-sort-class-members \
-  eslint-plugin-unicorn
+  eslint-plugin-unicorn \
+  typescript
 ```
 
 **yarn**:
@@ -49,6 +51,7 @@ npm install -D eslint \
 ```shell
 yarn add --dev eslint \
   @acmecryptocorp/eslint-plugin \
+  @typescript-eslint/eslint-plugin \
   eslint-config-airbnb \
   eslint-config-prettier \
   eslint-plugin-eslint-comments \
@@ -59,7 +62,8 @@ yarn add --dev eslint \
   eslint-plugin-optimize-regex \
   eslint-plugin-promise \
   eslint-plugin-sort-class-members \
-  eslint-plugin-unicorn
+  eslint-plugin-unicorn \
+  typescript
 ```
 
 ## Usage
@@ -105,9 +109,25 @@ Configuration files: [`json`](general/eslintrc.json), [`yaml`](general/eslintrc.
 
 Configuration files: [`json`](flow/eslintrc.json), [`yaml`](flow/eslintrc.yaml).
 
+#### @acmecryptocorp/eslint-config/typescript-beta
+
+**Beta** configuration for [Typescript](https://www.typescriptlang.org/)
+
+**Important**: You must specify path to your **typescript configuration file** in parser options in your `.eslintrc`.
+
+Example:
+
+```yaml
+parserOptions:
+  project: 'tsconfig.json'
+```
+
+Configuration files: [`json`](typescript-beta/eslintrc.json), [`yaml`](typescript-beta/eslintrc.yaml).
+
 ## Links
 
 - [@acmecryptocorp/eslint-plugin](https://github.com/acmecryptocorp/acme-eslint-plugin)
+- [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin)
 - [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
 - [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)

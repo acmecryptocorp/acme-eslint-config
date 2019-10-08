@@ -1,0 +1,83 @@
+---
+parser: '@typescript-eslint/parser'
+parserOptions:
+  sourceType: module
+
+plugins:
+  - '@typescript-eslint/eslint-plugin'
+
+rules:
+  '@typescript-eslint/adjacent-overload-signatures': error
+  '@typescript-eslint/array-type':
+    - error
+    - default: generic
+  '@typescript-eslint/await-thenable': warn
+  '@typescript-eslint/ban-ts-ignore': off
+  '@typescript-eslint/ban-types': error
+  '@typescript-eslint/brace-style': off
+  '@typescript-eslint/camelcase': off
+  '@typescript-eslint/class-name-casing': off
+  '@typescript-eslint/consistent-type-assertions':
+    - error
+    - assertionStyle: 'as'
+      objectLiteralTypeAssertions: 'never'
+  '@typescript-eslint/consistent-type-definitions': off
+  '@typescript-eslint/explicit-function-return-type':
+    - error
+    - allowExpressions: false
+      allowTypedFunctionExpressions: true
+      allowHigherOrderFunctions: true
+  '@typescript-eslint/explicit-member-accessibility': off
+  '@typescript-eslint/func-call-spacing': off
+  '@typescript-eslint/generic-type-naming': error
+  '@typescript-eslint/indent': off
+  '@typescript-eslint/interface-name-prefix': off
+  '@typescript-eslint/member-delimiter-style': off
+  '@typescript-eslint/member-naming': off
+  '@typescript-eslint/member-ordering': off
+  no-empty-function: 'off'
+  '@typescript-eslint/no-empty-function': error
+  '@typescript-eslint/no-empty-interface': warn
+  '@typescript-eslint/no-explicit-any': warn
+  '@typescript-eslint/no-extra-parens': off
+  # '@typescript-eslint/no-extraneous-class': error # TODO
+  # '@typescript-eslint/no-floating-promises': error # TODO
+  '@typescript-eslint/no-for-in-array': off
+  '@typescript-eslint/no-inferrable-types': off
+  '@typescript-eslint/no-magic-numbers': off
+  '@typescript-eslint/no-misused-new': error
+  '@typescript-eslint/no-misused-promises': error
+  # '@typescript-eslint/no-namespace': error # TODO
+  '@typescript-eslint/no-non-null-assertion': error
+  '@typescript-eslint/no-parameter-properties': error
+  '@typescript-eslint/no-require-imports': off
+  '@typescript-eslint/no-this-alias': error
+  '@typescript-eslint/no-type-alias': off
+  '@typescript-eslint/no-unnecessary-condition': warn
+  # '@typescript-eslint/no-unnecessary-qualifier': error # TODO
+  '@typescript-eslint/no-unnecessary-type-arguments': off
+  '@typescript-eslint/no-unnecessary-type-assertion': error
+  '@typescript-eslint/no-unused-vars': off
+  '@typescript-eslint/no-use-before-define': off
+  '@typescript-eslint/no-useless-constructor': off
+  '@typescript-eslint/no-var-requires': off
+  '@typescript-eslint/prefer-for-of': off
+  '@typescript-eslint/prefer-function-type': error
+  '@typescript-eslint/prefer-includes': off
+  # '@typescript-eslint/prefer-namespace-keyword': error # TODO
+  '@typescript-eslint/prefer-readonly': error
+  '@typescript-eslint/prefer-regexp-exec': off
+  '@typescript-eslint/prefer-string-starts-ends-with': off
+  '@typescript-eslint/promise-function-async': error
+  '@typescript-eslint/quotes': off
+  '@typescript-eslint/require-array-sort-compare': warn
+  # require-await: 'off'
+  # '@typescript-eslint/require-await': error # TODO
+  '@typescript-eslint/restrict-plus-operands': error
+  '@typescript-eslint/semi': off
+  '@typescript-eslint/strict-boolean-expressions': error
+  '@typescript-eslint/triple-slash-reference': off
+  '@typescript-eslint/type-annotation-spacing': off
+  # '@typescript-eslint/typedef': error # TODO
+  # '@typescript-eslint/unbound-method': error # TODO
+  '@typescript-eslint/unified-signatures': error

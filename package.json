@@ -12,7 +12,7 @@
     "acmecryptocorp"
   ],
   "files": [
-    "{general,flow}/{eslintrc.json,index.js}"
+    "{general,flow,typescript-beta}/{eslintrc.json,index.js}"
   ],
   "scripts": {
     "test": "jest",
@@ -68,6 +68,7 @@
   },
   "peerDependencies": {
     "@acmecryptocorp/eslint-plugin": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.4.0",
@@ -79,7 +80,8 @@
     "eslint-plugin-optimize-regex": "^1.1.7",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-sort-class-members": "^1.6.0",
-    "eslint-plugin-unicorn": "^12.0.2"
+    "eslint-plugin-unicorn": "^12.0.2",
+    "typescript": "^3.6.3"
   },
   "config": {
     "commitizen": {
@@ -88,5 +90,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.3.3"
   }
 }
