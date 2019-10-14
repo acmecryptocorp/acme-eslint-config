@@ -26,7 +26,7 @@ rules:
   filenames/match-exported: error
   filenames/match-regex: 'off'
   filenames/no-index: 'off'
-  import/group-exports: error
+  import/group-exports: 'off'
   import/order:
     - error
     - groups:
@@ -124,9 +124,3 @@ plugins:
 extends:
   - airbnb-base
   - prettier
-overrides:
-  - files:
-      - '*.types.js'
-      - '*.flow.js'
-    rules:
-      import/group-exports: 'off'

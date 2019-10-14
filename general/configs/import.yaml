@@ -3,7 +3,7 @@ plugins:
   - import
 
 rules:
-  import/group-exports: error
+  import/group-exports: off
   import/order:
     - error
     - groups:
@@ -14,10 +14,3 @@ rules:
         - - index
           - sibling
       newlines-between: always
-
-overrides:
-  - files:
-      - '*.types.js'
-      - '*.flow.js'
-    rules:
-      import/group-exports: off
