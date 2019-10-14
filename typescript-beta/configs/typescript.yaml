@@ -31,6 +31,7 @@ rules:
   '@typescript-eslint/member-delimiter-style': off
   '@typescript-eslint/member-naming': off
   '@typescript-eslint/member-ordering': off
+  '@typescript-eslint/no-array-constructor': off
   no-empty-function: 'off'
   '@typescript-eslint/no-empty-function': error
   '@typescript-eslint/no-empty-interface': warn
@@ -59,11 +60,11 @@ rules:
   '@typescript-eslint/no-var-requires': off
   '@typescript-eslint/prefer-for-of': off
   '@typescript-eslint/prefer-function-type': error
-  '@typescript-eslint/prefer-includes': off
+  # '@typescript-eslint/prefer-includes': off # TODO
   # '@typescript-eslint/prefer-namespace-keyword': error # TODO
   '@typescript-eslint/prefer-readonly': error
   '@typescript-eslint/prefer-regexp-exec': off
-  '@typescript-eslint/prefer-string-starts-ends-with': off
+  # '@typescript-eslint/prefer-string-starts-ends-with': off # TODO
   '@typescript-eslint/promise-function-async': error
   '@typescript-eslint/quotes': off
   '@typescript-eslint/require-array-sort-compare': warn
