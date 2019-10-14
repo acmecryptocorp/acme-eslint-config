@@ -13,10 +13,3 @@ rules:
     - single
     - avoidEscape: true
       allowTemplateLiterals: false
-
-overrides:
-  - files:
-      - '*.flow.js'
-      - '*.types.js'
-    rules:
-      no-use-before-define: 'off'

@@ -1,0 +1,7 @@
+---
+overrides:
+  - files:
+      - '*.flow.js'
+      - '*.types.js'
+    rules:
+      no-use-before-define: 'off'

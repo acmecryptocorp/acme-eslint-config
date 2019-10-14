@@ -131,20 +131,6 @@
     "unicorn/regex-shorthand": "off",
     "unicorn/throw-new-error": "error"
   },
-  "overrides": [
-    {
-      "files": ["*.flow.js", "*.types.js"],
-      "rules": {
-        "no-use-before-define": "off"
-      }
-    },
-    {
-      "files": ["*.types.js", "*.flow.js"],
-      "rules": {
-        "import/group-exports": "off"
-      }
-    }
-  ],
   "plugins": [
     "eslint-comments",
     "filenames",
@@ -155,5 +141,13 @@
     "sort-class-members",
     "unicorn"
   ],
-  "extends": ["airbnb-base", "prettier"]
+  "extends": ["airbnb-base", "prettier"],
+  "overrides": [
+    {
+      "files": ["*.types.js", "*.flow.js"],
+      "rules": {
+        "import/group-exports": "off"
+      }
+    }
+  ]
 }

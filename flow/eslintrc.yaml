@@ -64,6 +64,12 @@ rules:
   flowtype/union-intersection-spacing: 'off'
   flowtype/use-flow-type: error
   no-unused-expressions: 'off'
+overrides:
+  - files:
+      - '*.flow.js'
+      - '*.types.js'
+    rules:
+      no-use-before-define: 'off'
 settings:
   flowtype:
     onlyFilesWithFlowAnnotation: true
