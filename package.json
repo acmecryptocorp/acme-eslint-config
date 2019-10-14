@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/acmecryptocorp/acme-eslint-config.git"
+    "url": "https://github.com/acmecryptocorp/eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/acmecryptocorp/acme-eslint-config/issues"
+    "url": "https://github.com/acmecryptocorp/eslint-config/issues"
   },
-  "homepage": "https://github.com/acmecryptocorp/acme-eslint-config#readme",
+  "homepage": "https://github.com/acmecryptocorp/eslint-config#readme",
   "author": "",
   "license": "UNLICENSED",
   "devDependencies": {
