@@ -54,9 +54,21 @@ rules:
   # '@typescript-eslint/no-unnecessary-qualifier': error # TODO
   '@typescript-eslint/no-unnecessary-type-arguments': off
   '@typescript-eslint/no-unnecessary-type-assertion': error
-  '@typescript-eslint/no-unused-vars': off
-  '@typescript-eslint/no-use-before-define': off
-  '@typescript-eslint/no-useless-constructor': off
+  no-unused-vars: off
+  '@typescript-eslint/no-unused-vars':
+    - error
+    - vars: 'all'
+      args: 'after-used'
+      ignoreRestSiblings: true
+  no-use-before-define: off
+  '@typescript-eslint/no-use-before-define':
+    - error
+    - functions: true
+      classes: true
+      variables: true
+      typedefs: false
+  no-useless-constructor: off
+  '@typescript-eslint/no-useless-constructor': error
   '@typescript-eslint/no-var-requires': off
   '@typescript-eslint/prefer-for-of': off
   '@typescript-eslint/prefer-function-type': error
