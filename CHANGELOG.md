@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/acmecryptocorp/acme-eslint-config/compare/v2.1.0...v2.2.0) (2019-10-14)
+
+
+### Features
+
+* **typescript-beta:** add `@typescript-eslint/triple-slash-reference` error ([5650ddb](https://github.com/acmecryptocorp/acme-eslint-config/commit/5650ddb))
+* **typescript-beta:** replace some eslint rules with typescript specific ones ([2244e61](https://github.com/acmecryptocorp/acme-eslint-config/commit/2244e61))
+* **typescript-beta:** turn off `@typescript-eslint/no-unnecessary-condition` rule ([d56d529](https://github.com/acmecryptocorp/acme-eslint-config/commit/d56d529))
+
 # [2.1.0](https://github.com/acmecryptocorp/acme-eslint-config/compare/v2.0.0...v2.1.0) (2019-10-08)
 
 
