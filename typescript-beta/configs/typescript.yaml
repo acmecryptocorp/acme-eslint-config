@@ -50,7 +50,7 @@ rules:
   '@typescript-eslint/no-require-imports': off
   '@typescript-eslint/no-this-alias': error
   '@typescript-eslint/no-type-alias': off
-  '@typescript-eslint/no-unnecessary-condition': warn
+  '@typescript-eslint/no-unnecessary-condition': off
   # '@typescript-eslint/no-unnecessary-qualifier': error # TODO
   '@typescript-eslint/no-unnecessary-type-arguments': off
   '@typescript-eslint/no-unnecessary-type-assertion': error
