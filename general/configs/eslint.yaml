@@ -7,7 +7,7 @@ rules:
     - always
     - exceptAfterSingleLine: true
   prefer-arrow-callback: error
-  prefer-destructuring: 'off'
+  prefer-destructuring: off
   quotes:
     - error
     - single
