@@ -72,7 +72,7 @@ rules:
   '@typescript-eslint/restrict-plus-operands': error
   '@typescript-eslint/semi': off
   '@typescript-eslint/strict-boolean-expressions': error
-  '@typescript-eslint/triple-slash-reference': off
+  '@typescript-eslint/triple-slash-reference': error
   '@typescript-eslint/type-annotation-spacing': off
   # '@typescript-eslint/typedef': error # TODO
   # '@typescript-eslint/unbound-method': error # TODO
