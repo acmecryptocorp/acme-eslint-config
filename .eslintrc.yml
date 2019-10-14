@@ -6,10 +6,10 @@ env:
 parser: babel-eslint
 
 extends:
-  - "@acmecryptocorp"
-  - "@acmecryptocorp/eslint-config/flow"
-  - "plugin:jest/recommended"
-  - "plugin:jest/style"
+  - '@acmecryptocorp'
+  - '@acmecryptocorp/eslint-config/flow'
+  - 'plugin:jest/recommended'
+  - 'plugin:jest/style'
 
 plugins:
   - jest

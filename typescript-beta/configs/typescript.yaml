@@ -31,6 +31,7 @@ rules:
   '@typescript-eslint/member-delimiter-style': off
   '@typescript-eslint/member-naming': off
   '@typescript-eslint/member-ordering': off
+  '@typescript-eslint/no-array-constructor': off
   no-empty-function: 'off'
   '@typescript-eslint/no-empty-function': error
   '@typescript-eslint/no-empty-interface': warn
@@ -49,30 +50,41 @@ rules:
   '@typescript-eslint/no-require-imports': off
   '@typescript-eslint/no-this-alias': error
   '@typescript-eslint/no-type-alias': off
-  '@typescript-eslint/no-unnecessary-condition': warn
+  '@typescript-eslint/no-unnecessary-condition': off
   # '@typescript-eslint/no-unnecessary-qualifier': error # TODO
   '@typescript-eslint/no-unnecessary-type-arguments': off
   '@typescript-eslint/no-unnecessary-type-assertion': error
-  '@typescript-eslint/no-unused-vars': off
-  '@typescript-eslint/no-use-before-define': off
-  '@typescript-eslint/no-useless-constructor': off
+  no-unused-vars: off
+  '@typescript-eslint/no-unused-vars':
+    - error
+    - vars: 'all'
+      args: 'after-used'
+      ignoreRestSiblings: true
+  no-use-before-define: off
+  '@typescript-eslint/no-use-before-define':
+    - error
+    - functions: true
+      classes: true
+      variables: true
+      typedefs: false
+  no-useless-constructor: off
+  '@typescript-eslint/no-useless-constructor': error
   '@typescript-eslint/no-var-requires': off
   '@typescript-eslint/prefer-for-of': off
   '@typescript-eslint/prefer-function-type': error
-  '@typescript-eslint/prefer-includes': off
+  # '@typescript-eslint/prefer-includes': off # TODO
   # '@typescript-eslint/prefer-namespace-keyword': error # TODO
   '@typescript-eslint/prefer-readonly': error
   '@typescript-eslint/prefer-regexp-exec': off
-  '@typescript-eslint/prefer-string-starts-ends-with': off
+  # '@typescript-eslint/prefer-string-starts-ends-with': off # TODO
   '@typescript-eslint/promise-function-async': error
   '@typescript-eslint/quotes': off
   '@typescript-eslint/require-array-sort-compare': warn
-  # require-await: 'off'
-  # '@typescript-eslint/require-await': error # TODO
+  '@typescript-eslint/require-await': off
   '@typescript-eslint/restrict-plus-operands': error
   '@typescript-eslint/semi': off
   '@typescript-eslint/strict-boolean-expressions': error
-  '@typescript-eslint/triple-slash-reference': off
+  '@typescript-eslint/triple-slash-reference': error
   '@typescript-eslint/type-annotation-spacing': off
   # '@typescript-eslint/typedef': error # TODO
   # '@typescript-eslint/unbound-method': error # TODO
