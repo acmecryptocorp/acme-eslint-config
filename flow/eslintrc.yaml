@@ -2,9 +2,15 @@ plugins:
   - '@acmecryptocorp/eslint-plugin'
   - flowtype
 rules:
-  '@acmecryptocorp/require-exact-object-type': error
+  '@acmecryptocorp/require-exact-object-type': 'off'
+  '@acmecryptocorp/require-explicit-object-exactness': error
   '@acmecryptocorp/require-variable-type': 'off'
-  '@acmecryptocorp/type-export-filename': error
+  '@acmecryptocorp/type-export-filename':
+    - error
+    - - src/types/**/*.types.js
+      - src/types/**/*.flow.js
+      - src/types/**/index.js
+      - src/index.js
   flowtype/array-style-complex-type:
     - error
     - verbose
@@ -30,6 +36,7 @@ rules:
   flowtype/no-mutable-array: warn
   flowtype/no-primitive-constructor-types: error
   flowtype/no-types-missing-file-annotation: error
+  no-unused-expressions: 'off'
   flowtype/no-unused-expressions: error
   flowtype/no-weak-types: warn
   flowtype/object-type-delimiter: 'off'
@@ -63,7 +70,6 @@ rules:
     - declaration
   flowtype/union-intersection-spacing: 'off'
   flowtype/use-flow-type: error
-  no-unused-expressions: 'off'
 overrides:
   - files:
       - '*.flow.js'
