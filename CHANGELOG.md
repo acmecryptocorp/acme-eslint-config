@@ -1,3 +1,19 @@
+# [2.3.0](https://github.com/acmecryptocorp/eslint-config/compare/v2.2.0...v2.3.0) (2019-10-16)
+
+
+### Bug Fixes
+
+* **flow:** move `no-use-before-define` override for types into flow config ([4e90491](https://github.com/acmecryptocorp/eslint-config/commit/4e90491))
+
+
+### Features
+
+* **flow:** add `@acmecryptocorp/require-explicit-object-exactness` rule ([33fb8a7](https://github.com/acmecryptocorp/eslint-config/commit/33fb8a7))
+* **flow:** change default globs for `@acmecryptocorp/type-export-filename` ([7c9fefc](https://github.com/acmecryptocorp/eslint-config/commit/7c9fefc))
+* **flow:** turn `@acmecryptocorp/require-exact-object-type` rule off ([6e89d20](https://github.com/acmecryptocorp/eslint-config/commit/6e89d20))
+* **general:** turn `import/group-exports` off ([3129f70](https://github.com/acmecryptocorp/eslint-config/commit/3129f70))
+* **peer-dependencies:** update `@acmecryptocorp/eslint-plugin` to 1.1.1 ([09166eb](https://github.com/acmecryptocorp/eslint-config/commit/09166eb))
+
 # [2.2.0](https://github.com/acmecryptocorp/acme-eslint-config/compare/v2.1.0...v2.2.0) (2019-10-14)
 
 
