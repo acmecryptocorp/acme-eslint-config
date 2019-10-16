@@ -28,6 +28,7 @@ rules:
   flowtype/no-mutable-array: warn
   flowtype/no-primitive-constructor-types: error
   flowtype/no-types-missing-file-annotation: error
+  no-unused-expressions: off
   flowtype/no-unused-expressions: error # NOTE: overwrite no-unused-expression to not report type casts
   flowtype/no-weak-types: warn
   flowtype/object-type-delimiter: off
@@ -61,8 +62,3 @@ rules:
     - declaration
   flowtype/union-intersection-spacing: off
   flowtype/use-flow-type: error
-  no-unused-expressions: off
-
-settings:
-  flowtype:
-    onlyFilesWithFlowAnnotation: true

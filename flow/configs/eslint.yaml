@@ -5,3 +5,7 @@ overrides:
       - '*.types.js'
     rules:
       no-use-before-define: off
+
+settings:
+  flowtype:
+    onlyFilesWithFlowAnnotation: true
