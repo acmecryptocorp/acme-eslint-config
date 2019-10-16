@@ -9,7 +9,7 @@
 ### Features
 
 * **flow:** add `@acmecryptocorp/require-explicit-object-exactness` rule ([33fb8a7](https://github.com/acmecryptocorp/eslint-config/commit/33fb8a7))
-* **flow:** change default globs for `@acmecryptocorp/type-export-filename` ([7c9fefc](https://github.com/acmecryptocorp/eslint-config/commit/7c9fefc))
+* **flow:** change default globs for `@acmecryptocorp/type-export-filename` ([7c9fefc](https://github.com/acmecryptocorp/eslint-config/commit/7c9fefc)) to `src/types/**/*.types.js`, `src/types/**/*.flow.js`, `src/types/**/index.js` and `src/index.js`
 * **flow:** turn `@acmecryptocorp/require-exact-object-type` rule off ([6e89d20](https://github.com/acmecryptocorp/eslint-config/commit/6e89d20))
 * **general:** turn `import/group-exports` off ([3129f70](https://github.com/acmecryptocorp/eslint-config/commit/3129f70))
 * **peer-dependencies:** update `@acmecryptocorp/eslint-plugin` to 1.1.1 ([09166eb](https://github.com/acmecryptocorp/eslint-config/commit/09166eb))
