@@ -5,4 +5,11 @@ plugins:
 rules:
   '@acmecryptocorp/require-exact-object-type': error
   '@acmecryptocorp/require-variable-type': off
-  '@acmecryptocorp/type-export-filename': error
+  '@acmecryptocorp/type-export-filename':
+    - error
+    - [
+        'src/types/**/*.types.js',
+        'src/types/**/*.flow.js',
+        'src/types/**/index.js',
+        'src/index.js',
+      ]
