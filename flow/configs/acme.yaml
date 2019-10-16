@@ -4,6 +4,7 @@ plugins:
 
 rules:
   '@acmecryptocorp/require-exact-object-type': off
+  '@acmecryptocorp/require-explicit-object-exactness': error
   '@acmecryptocorp/require-variable-type': off
   '@acmecryptocorp/type-export-filename':
     - error
