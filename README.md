@@ -29,41 +29,43 @@ or manually:
 **npm**:
 
 ```shell
-npm install -D eslint \
-  @acmecryptocorp/eslint-plugin \
-  @typescript-eslint/eslint-plugin \
-  eslint-config-airbnb \
-  eslint-config-prettier \
-  eslint-plugin-eslint-comments \
-  eslint-plugin-filenames \
-  eslint-plugin-flowtype \
-  eslint-plugin-import \
-  eslint-plugin-no-loops \
-  eslint-plugin-optimize-regex \
-  eslint-plugin-promise \
-  eslint-plugin-sort-class-members \
-  eslint-plugin-unicorn \
-  typescript
+npm install -D \
+  @acmecryptocorp/eslint-plugin@~1.1.1 \
+  @typescript-eslint/eslint-plugin@~2.17.0 \
+  eslint@^6.8.0 \
+  eslint-config-airbnb@~14.0.0 \
+  eslint-config-prettier@~6.9.0 \
+  eslint-plugin-eslint-comments@~3.1.1 \
+  eslint-plugin-filenames@~1.3.2 \
+  eslint-plugin-flowtype@~4.6.0 \
+  eslint-plugin-import@~2.20.0 \
+  eslint-plugin-no-loops@~0.3.0 \
+  eslint-plugin-optimize-regex@~1.1.7 \
+  eslint-plugin-promise@~4.1.1 \
+  eslint-plugin-sort-class-members@~1.6.0 \
+  eslint-plugin-unicorn@~15.0.1 \
+  typescript@^3.6.3
 ```
 
 **yarn**:
 
 ```shell
-yarn add --dev eslint \
-  @acmecryptocorp/eslint-plugin \
-  @typescript-eslint/eslint-plugin \
-  eslint-config-airbnb \
-  eslint-config-prettier \
-  eslint-plugin-eslint-comments \
-  eslint-plugin-filenames \
-  eslint-plugin-flowtype \
-  eslint-plugin-import \
-  eslint-plugin-no-loops \
-  eslint-plugin-optimize-regex \
-  eslint-plugin-promise \
-  eslint-plugin-sort-class-members \
-  eslint-plugin-unicorn \
-  typescript
+yarn add --dev \
+  @acmecryptocorp/eslint-plugin@~1.1.1 \
+  @typescript-eslint/eslint-plugin@~2.17.0 \
+  eslint@^6.8.0 \
+  eslint-config-airbnb@~14.0.0 \
+  eslint-config-prettier@~6.9.0 \
+  eslint-plugin-eslint-comments@~3.1.1 \
+  eslint-plugin-filenames@~1.3.2 \
+  eslint-plugin-flowtype@~4.6.0 \
+  eslint-plugin-import@~2.20.0 \
+  eslint-plugin-no-loops@~0.3.0 \
+  eslint-plugin-optimize-regex@~1.1.7 \
+  eslint-plugin-promise@~4.1.1 \
+  eslint-plugin-sort-class-members@~1.6.0 \
+  eslint-plugin-unicorn@~15.0.1 \
+  typescript@^3.6.3
 ```
 
 ## Usage
@@ -109,7 +111,7 @@ Configuration files: [`json`](general/eslintrc.json), [`yaml`](general/eslintrc.
 
 Configuration files: [`json`](flow/eslintrc.json), [`yaml`](flow/eslintrc.yaml).
 
-#### @acmecryptocorp/eslint-config/typescript-beta
+#### @acmecryptocorp/eslint-config/typescript
 
 **Beta** configuration for [Typescript](https://www.typescriptlang.org/)
 
@@ -121,6 +123,14 @@ Example:
 parserOptions:
   project: 'tsconfig.json'
 ```
+
+Configuration files: [`json`](typescript/eslintrc.json), [`yaml`](typescript/eslintrc.yaml).
+
+#### @acmecryptocorp/eslint-config/typescript
+
+**DEPRECTATED**
+
+**Beta** configuration for [Typescript](https://www.typescriptlang.org/)
 
 Configuration files: [`json`](typescript-beta/eslintrc.json), [`yaml`](typescript-beta/eslintrc.yaml).
 
