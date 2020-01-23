@@ -46,7 +46,11 @@ test('peerDependencies', () => {
     normalizeConfigName,
   );
 
-  const constantPeerDeps: $ReadOnlyArray<string> = ['eslint', 'typescript'];
+  const constantPeerDeps: $ReadOnlyArray<string> = [
+    'eslint',
+    'typescript',
+    'eslint-import-resolver-ts',
+  ];
   const targetPeerDependencies: Set<string> = new Set([
     ...constantPeerDeps,
     ...plugins,
