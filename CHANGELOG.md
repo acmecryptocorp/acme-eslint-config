@@ -1,3 +1,11 @@
+# [2.4.0](https://github.com/acmecryptocorp/eslint-config/compare/v2.3.0...v2.4.0) (2020-01-23)
+
+
+### Features
+
+* **config:** add `typescript` config ([abf45ae](https://github.com/acmecryptocorp/eslint-config/commit/abf45aedd24dcf3eff9ac07e29aab0ff13d0f0fc))
+* **peer-dependencies:** update peer dependencies version ([39d6ec7](https://github.com/acmecryptocorp/eslint-config/commit/39d6ec7705e043238c3c3745777c7ecc060720f4))
+
 # [2.3.0](https://github.com/acmecryptocorp/eslint-config/compare/v2.2.0...v2.3.0) (2019-10-16)
 
 
