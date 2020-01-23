@@ -1,3 +1,11 @@
+## [2.4.1](https://github.com/acmecryptocorp/eslint-config/compare/v2.4.0...v2.4.1) (2020-01-23)
+
+
+### Bug Fixes
+
+* **peer-dependencies:** change `eslint-plugin-import` version to exact `2.18.2` ([2c0dc65](https://github.com/acmecryptocorp/eslint-config/commit/2c0dc6563f08119a8504cf81ef04775931e8212b))
+* fix empty build ([8c2b68a](https://github.com/acmecryptocorp/eslint-config/commit/8c2b68af0362ff002217c238b23f194993b8c58e))
+
 # [2.4.0](https://github.com/acmecryptocorp/eslint-config/compare/v2.3.0...v2.4.0) (2020-01-23)
 
 

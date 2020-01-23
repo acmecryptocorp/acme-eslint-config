@@ -1,6 +1,6 @@
 {
   "name": "@acmecryptocorp/eslint-config",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "Acme Crypto Corp's extensible config for ESlint",
   "main": "index.js",
   "keywords": [
