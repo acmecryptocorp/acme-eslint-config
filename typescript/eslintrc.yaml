@@ -1,6 +1,15 @@
+overrides:
+  - files:
+      - src/types/**/*.ts
+    rules:
+      import/prefer-default-export: 'off'
 parser: '@typescript-eslint/parser'
 parserOptions:
   sourceType: module
+settings:
+  import/resolver:
+    ts:
+      alwaysTryTypes: true
 plugins:
   - '@typescript-eslint/eslint-plugin'
 rules:

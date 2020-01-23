@@ -10,8 +10,8 @@ build:
 	yarn mergy flow/configs/* --out flow/eslintrc.json -f json
 	yarn mergy flow/configs/* --out flow/eslintrc.yaml -f yaml
 
-	yarn mergy typescript-beta/configs/* --out typescript-beta/eslintrc.json -f json
-	yarn mergy typescript-beta/configs/* --out typescript-beta/eslintrc.yaml -f yaml
+	yarn mergy typescript/configs/* --out typescript/eslintrc.json -f json
+	yarn mergy typescript/configs/* --out typescript/eslintrc.yaml -f yaml
 
 	yarn mergy typescript-beta/configs/* --out typescript-beta/eslintrc.json -f json
 	yarn mergy typescript-beta/configs/* --out typescript-beta/eslintrc.yaml -f yaml
