@@ -113,7 +113,7 @@ Configuration files: [`json`](flow/eslintrc.json), [`yaml`](flow/eslintrc.yaml).
 
 #### @acmecryptocorp/eslint-config/typescript
 
-**Beta** configuration for [Typescript](https://www.typescriptlang.org/)
+Configuration for [Typescript](https://www.typescriptlang.org/)
 
 **Important**: You must specify path to your **typescript configuration file** in parser options in your `.eslintrc`.
 
@@ -126,7 +126,7 @@ parserOptions:
 
 Configuration files: [`json`](typescript/eslintrc.json), [`yaml`](typescript/eslintrc.yaml).
 
-#### @acmecryptocorp/eslint-config/typescript
+#### @acmecryptocorp/eslint-config/typescript-beta
 
 **DEPRECTATED**
 
