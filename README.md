@@ -39,7 +39,7 @@ npm install -D \
   eslint-plugin-eslint-comments@~3.1.1 \
   eslint-plugin-filenames@~1.3.2 \
   eslint-plugin-flowtype@~4.6.0 \
-  eslint-plugin-import@~2.20.0 \
+  eslint-plugin-import@2.18.2 \
   eslint-plugin-no-loops@~0.3.0 \
   eslint-plugin-optimize-regex@~1.1.7 \
   eslint-plugin-promise@~4.1.1 \
@@ -61,7 +61,7 @@ yarn add --dev \
   eslint-plugin-eslint-comments@~3.1.1 \
   eslint-plugin-filenames@~1.3.2 \
   eslint-plugin-flowtype@~4.6.0 \
-  eslint-plugin-import@~2.20.0 \
+  eslint-plugin-import@2.18.2 \
   eslint-plugin-no-loops@~0.3.0 \
   eslint-plugin-optimize-regex@~1.1.7 \
   eslint-plugin-promise@~4.1.1 \
