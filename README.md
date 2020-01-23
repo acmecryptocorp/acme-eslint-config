@@ -35,6 +35,7 @@ npm install -D \
   eslint@^6.8.0 \
   eslint-config-airbnb@~14.0.0 \
   eslint-config-prettier@~6.9.0 \
+  eslint-import-resolver-ts@~0.4.2 \
   eslint-plugin-eslint-comments@~3.1.1 \
   eslint-plugin-filenames@~1.3.2 \
   eslint-plugin-flowtype@~4.6.0 \
@@ -56,6 +57,7 @@ yarn add --dev \
   eslint@^6.8.0 \
   eslint-config-airbnb@~14.0.0 \
   eslint-config-prettier@~6.9.0 \
+  eslint-import-resolver-ts@~0.4.2 \
   eslint-plugin-eslint-comments@~3.1.1 \
   eslint-plugin-filenames@~1.3.2 \
   eslint-plugin-flowtype@~4.6.0 \
