@@ -111,7 +111,7 @@ Configuration files: [`json`](general/eslintrc.json), [`yaml`](general/eslintrc.
 
 Configuration files: [`json`](flow/eslintrc.json), [`yaml`](flow/eslintrc.yaml).
 
-#### @acmecryptocorp/eslint-config/typescript-beta
+#### @acmecryptocorp/eslint-config/typescript
 
 **Beta** configuration for [Typescript](https://www.typescriptlang.org/)
 
@@ -123,6 +123,14 @@ Example:
 parserOptions:
   project: 'tsconfig.json'
 ```
+
+Configuration files: [`json`](typescript/eslintrc.json), [`yaml`](typescript/eslintrc.yaml).
+
+#### @acmecryptocorp/eslint-config/typescript
+
+**DEPRECTATED**
+
+**Beta** configuration for [Typescript](https://www.typescriptlang.org/)
 
 Configuration files: [`json`](typescript-beta/eslintrc.json), [`yaml`](typescript-beta/eslintrc.yaml).
 
