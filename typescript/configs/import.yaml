@@ -1,0 +1,4 @@
+overrides:
+  - files: ['src/types/**/*.ts']
+    rules:
+      import/prefer-default-export: off
