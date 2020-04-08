@@ -33,7 +33,7 @@ npm install -D \
   @acmecryptocorp/eslint-plugin@~1.1.1 \
   @typescript-eslint/eslint-plugin@~2.17.0 \
   eslint@^6.8.0 \
-  eslint-config-airbnb@~14.0.0 \
+  eslint-config-airbnb-base@~14.0.0 \
   eslint-config-prettier@~6.9.0 \
   eslint-import-resolver-ts@~0.4.2 \
   eslint-plugin-eslint-comments@~3.1.1 \
@@ -55,7 +55,7 @@ yarn add --dev \
   @acmecryptocorp/eslint-plugin@~1.1.1 \
   @typescript-eslint/eslint-plugin@~2.17.0 \
   eslint@^6.8.0 \
-  eslint-config-airbnb@~14.0.0 \
+  eslint-config-airbnb-base@~14.0.0 \
   eslint-config-prettier@~6.9.0 \
   eslint-import-resolver-ts@~0.4.2 \
   eslint-plugin-eslint-comments@~3.1.1 \
