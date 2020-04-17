@@ -4,6 +4,10 @@ extends:
   - eslint-config-airbnb/hooks
 
 rules:
+  react/destructuring-assignment:
+    - error
+    - always
+    - ignoreClassFields: true
   react/jsx-filename-extension:
     - error
     - extensions:
