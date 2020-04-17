@@ -51,8 +51,14 @@ test('peerDependencies', () => {
     'typescript',
     'eslint-import-resolver-ts',
   ];
+  const constantReactPeerDeps: $ReadOnlyArray<string> = [
+    'eslint-plugin-jsx-a11y',
+    'eslint-plugin-react',
+    'eslint-plugin-react-hooks',
+  ];
   const targetPeerDependencies: Set<string> = new Set([
     ...constantPeerDeps,
+    ...constantReactPeerDeps,
     ...plugins,
     ...configs,
   ]);

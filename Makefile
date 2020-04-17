@@ -16,6 +16,9 @@ build:
 	yarn mergy typescript-beta/configs/* --out typescript-beta/eslintrc.json -f json
 	yarn mergy typescript-beta/configs/* --out typescript-beta/eslintrc.yaml -f yaml
 
+	yarn mergy react/configs/* --out react/eslintrc.json -f json
+	yarn mergy react/configs/* --out react/eslintrc.yaml -f yaml
+
 	make prettier
 .PHONY: build
 
@@ -49,7 +52,7 @@ full-test: lint flow test
 .PHONY: full-test
 
 prettier:
-	yarn prettier --write "{general,flow,typescript,typescript-beta}/**/*.{js,json,yaml}" "index.js"
+	yarn prettier --write "{general,flow,typescript,typescript-beta,react}/**/*.{js,json,yaml}" "index.js"
 .PHONY: prettier
 
 test-publish: build full-test

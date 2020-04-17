@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "eslint-config-airbnb/rules/react",
+    "eslint-config-airbnb/rules/react-a11y",
+    "eslint-config-airbnb/hooks"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".jsx", ".tsx"]
+      }
+    ],
+    "react/static-property-placement": ["error", "static public field"],
+    "react/jsx-props-no-spreading": "off",
+    "react/state-in-constructor": ["error", "never"],
+    "react/jsx-no-script-url": "error",
+    "react/jsx-no-useless-fragment": "error",
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["*.{jsx,tsx}"],
+      "rules": {
+        "sort-class-members/sort-class-members": "off"
+      }
+    }
+  ]
+}
