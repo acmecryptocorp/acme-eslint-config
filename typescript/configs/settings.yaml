@@ -7,3 +7,9 @@ settings:
   import/resolver:
     ts:
       alwaysTryTypes: true
+  import/extensions: # NOTE: extends Airbnb rule
+    - '.js'
+    - '.jsx'
+    - '.ts'
+    - '.tsx'
+    - '.mjs'
