@@ -33,13 +33,13 @@ npm install -D \
   @acmecryptocorp/eslint-plugin@~1.1.1 \
   @typescript-eslint/eslint-plugin@~2.17.0 \
   eslint@^6.8.0 \
-  eslint-config-airbnb@~14.0.0 \
+  eslint-config-airbnb-base@~14.0.0 \
   eslint-config-prettier@~6.9.0 \
   eslint-import-resolver-ts@~0.4.2 \
   eslint-plugin-eslint-comments@~3.1.1 \
   eslint-plugin-filenames@~1.3.2 \
   eslint-plugin-flowtype@~4.6.0 \
-  eslint-plugin-import@2.18.2 \
+  eslint-plugin-import@^2.20.2 \
   eslint-plugin-no-loops@~0.3.0 \
   eslint-plugin-optimize-regex@~1.1.7 \
   eslint-plugin-promise@~4.1.1 \
@@ -55,13 +55,13 @@ yarn add --dev \
   @acmecryptocorp/eslint-plugin@~1.1.1 \
   @typescript-eslint/eslint-plugin@~2.17.0 \
   eslint@^6.8.0 \
-  eslint-config-airbnb@~14.0.0 \
+  eslint-config-airbnb-base@~14.0.0 \
   eslint-config-prettier@~6.9.0 \
   eslint-import-resolver-ts@~0.4.2 \
   eslint-plugin-eslint-comments@~3.1.1 \
   eslint-plugin-filenames@~1.3.2 \
   eslint-plugin-flowtype@~4.6.0 \
-  eslint-plugin-import@2.18.2 \
+  eslint-plugin-import@^2.20.2 \
   eslint-plugin-no-loops@~0.3.0 \
   eslint-plugin-optimize-regex@~1.1.7 \
   eslint-plugin-promise@~4.1.1 \

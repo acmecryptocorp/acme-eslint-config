@@ -1,18 +1,37 @@
-overrides:
-  - files:
-      - src/types/**/*.ts
-    rules:
-      import/prefer-default-export: 'off'
-parser: '@typescript-eslint/parser'
-parserOptions:
-  sourceType: module
-settings:
-  import/resolver:
-    ts:
-      alwaysTryTypes: true
-plugins:
-  - '@typescript-eslint/eslint-plugin'
 rules:
+  import/extensions:
+    - error
+    - ignorePackages
+    - js: never
+      mjs: never
+      jsx: never
+      ts: never
+      tsx: never
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies:
+        - test/**
+        - tests/**
+        - spec/**
+        - '**/__tests__/**'
+        - '**/__mocks__/**'
+        - 'test.{js,jsx,ts,tsx}'
+        - 'test-*.{js,jsx,ts,tsx}'
+        - '**/*{.,_}{test,spec}.{js,jsx,ts,tsx}'
+        - '**/jest.config.js'
+        - '**/jest.setup.js'
+        - '**/vue.config.js'
+        - '**/webpack.config.js'
+        - '**/webpack.config.*.js'
+        - '**/rollup.config.js'
+        - '**/rollup.config.*.js'
+        - '**/gulpfile.js'
+        - '**/gulpfile.*.js'
+        - '**/Gruntfile{,.js}'
+        - '**/protractor.conf.js'
+        - '**/protractor.conf.*.js'
+        - '**/karma.conf.js'
+      optionalDependencies: false
   '@typescript-eslint/adjacent-overload-signatures': error
   '@typescript-eslint/array-type':
     - error
@@ -90,3 +109,23 @@ rules:
   '@typescript-eslint/triple-slash-reference': error
   '@typescript-eslint/type-annotation-spacing': 'off'
   '@typescript-eslint/unified-signatures': error
+overrides:
+  - files:
+      - src/types/**/*.ts
+    rules:
+      import/prefer-default-export: 'off'
+parser: '@typescript-eslint/parser'
+parserOptions:
+  sourceType: module
+settings:
+  import/resolver:
+    ts:
+      alwaysTryTypes: true
+  import/extensions:
+    - .js
+    - .jsx
+    - .ts
+    - .tsx
+    - .mjs
+plugins:
+  - '@typescript-eslint/eslint-plugin'
