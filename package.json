@@ -64,7 +64,7 @@
     "js-yaml": "^3.13.1",
     "mergy": "^1.0.0",
     "prettier": "^1.19.1",
-    "semantic-release": "^16.0.3"
+    "semantic-release": "^17.2.3"
   },
   "peerDependencies": {
     "@acmecryptocorp/eslint-plugin": "~1.1.1",
